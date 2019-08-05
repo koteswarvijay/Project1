@@ -18,6 +18,7 @@ public class Project1 {
         String s = "Hello world";
         
         Util.display(s);
+        Util.display("Bye");
     }
     
 }
