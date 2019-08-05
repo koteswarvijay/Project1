@@ -9,15 +9,10 @@ package project1;
  *
  * @author koteswarvijay
  */
-public class Project1 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        String s = "Hello world";
-        
-        Util.display(s);
+public class Util {
+    
+    public static void display(String str) {
+        System.out.println(str);
     }
     
 }
